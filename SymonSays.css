@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    margin: 2.22rem;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.Box_container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #d95980;
+}   
+
+.cayan {
+    background-color: #68aac0;
+}
+
+.orange {
+    background-color: #f99b45;
+}
+
+.blue {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: whitesmoke;
+}
+
+.userFlash {
+    background-color: green;
+}
