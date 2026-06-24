@@ -81,4 +81,12 @@ SimonSays/
 
 ---
 
+---
+
+# 🎮 Simon Says Game
+
+🚀 Live Demo: https://simon-says-game-navy-kappa.vercel.app
+
+---
+
 ⭐ If you enjoyed this project, consider giving it a star!
