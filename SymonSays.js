@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 let gameseq = [];
 let userseq = [];
 let btns = ["cayan", "red", "orange", "blue"];
