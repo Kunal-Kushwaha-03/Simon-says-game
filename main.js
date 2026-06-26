@@ -1,8 +1,3 @@
-import { injectSpeedInsights } from "@vercel/speed-insights";
-
-injectSpeedInsights();
-
-// Your existing code...
 let gameseq = [];
 let userseq = [];
 let btns = ["cayan", "red", "orange", "blue"];
