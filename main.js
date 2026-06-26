@@ -1,5 +1,8 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 
+injectSpeedInsights();
+
+// Your existing code...
 let gameseq = [];
 let userseq = [];
 let btns = ["cayan", "red", "orange", "blue"];
@@ -44,7 +47,7 @@ function levelUp() {
   h2.innerText = `Level ${level}`;
 
 
-  let randIdx = Math.floor(Math.random() * 3);
+  let randIdx = Math.floor(Math.random() * btns.length);
   let randColor = btns[randIdx];
   let randBtn = document.querySelector(`.${randColor}`);
 
